@@ -89,7 +89,7 @@ These fields will be passed on to the template as variables. Since Twig uses sna
 to that convention here as well.
 
 ```php
-final class Post extends PresentationModel implements HasPresenter
+final class Post extends PresentationModel implements HasPresenterInterface
 {
     protected $author_name = '';
 
